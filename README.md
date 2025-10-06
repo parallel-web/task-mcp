@@ -1,11 +1,15 @@
-Proxy to https://task-mcp.parallel.ai/mcp
+# Parallel Task MCP
 
-How to run/test:
+The **Parallel Task MCP** allows initiating deep research or task groups directly from your favorite LLM client. It can be a great way to get to know Parallel’s different APIs by exploring their capabilities, but can also be used as a way to easily do small experiments while developing production systems using Parallel APIs. Please read [our MCP docs here](https://docs.parallel.ai/integrations/mcp/getting-started) for more details. The official installation instructions can be found [here](https://docs.parallel.ai/integrations/mcp/installation).
+
+<details><summary>Running locally</summary>
+
+This repo contains a proxy to the mcp which is hosted at: https://task-mcp.parallel.ai/mcp
+
+How to run and test locally:
 
 1. `wrangler dev`
 2. `npx @modelcontextprotocol/inspector`
-3. try mcp server: http://localhost:8787/mcp
+3. Connect to server: http://localhost:8787/mcp
 
-MCP address: https://task-mcp.parallel.ai/mcp
-
-[![Install Parallel Task MCP](https://img.shields.io/badge/Install_MCP-Parallel%20Search%20MCP-black?style=for-the-badge)](https://installthismcp.com/Parallel%20Search%20MCP?url=https%3A%2F%2Ftask-mcp.parallel.ai%2Fmcp)
+</details>
