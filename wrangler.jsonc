@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/wrangler@latest/config-schema.json",
+  "name": "task-mcp-proxy",
+  "main": "main.ts",
+  "compatibility_date": "2025-09-10",
+  "observability": { "logs": { "enabled": true } },
+  "routes": []
+}
