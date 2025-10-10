@@ -10,8 +10,7 @@ The official installation instructions can be found [here](https://docs.parallel
 {
   "mcpServers": {
     "Parallel Task MCP": {
-      "url": "https://task-mcp.parallel.ai/mcp",
-      "type": "streamableHttp"
+      "url": "https://task-mcp.parallel.ai/mcp"
     }
   }
 }
