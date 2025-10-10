@@ -6,6 +6,17 @@ The **Parallel Task MCP** allows initiating deep research or task groups directl
 
 The official installation instructions can be found [here](https://docs.parallel.ai/integrations/mcp/installation).
 
+```json
+{
+  "mcpServers": {
+    "Parallel Task MCP": {
+      "url": "https://task-mcp.parallel.ai/mcp",
+      "type": "streamableHttp"
+    }
+  }
+}
+```
+
 ## Running locally
 
 <details><summary>Running locally</summary>
