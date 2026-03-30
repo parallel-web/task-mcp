@@ -2,6 +2,10 @@
 
 The **Parallel Task MCP** allows initiating deep research or task groups directly from your favorite LLM client. It can be a great way to get to know Parallel’s different APIs by exploring their capabilities, but can also be used as a way to easily do small experiments while developing production systems using Parallel APIs. Please read [our MCP docs here](https://docs.parallel.ai/integrations/mcp/getting-started) for more details.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/parallel-web-task-mcp).
+
 ## Installation
 
 The official installation instructions can be found [here](https://docs.parallel.ai/integrations/mcp/installation).
