@@ -72,13 +72,13 @@ Verify the connection by checking that these four tools are available. You do no
 
 ## Try it
 
-Ask your agent:
+Research a company:
 
-> Propose a Parallel deep-research task comparing the deployment options for my application. Show me the research question and processor before starting the paid task.
+> Use `createDeepResearch` to research Parallel Web Systems (<https://parallel.ai>). Write a company brief covering its products, target customers, and publicly announced funding. Cite your sources and flag anything you cannot verify.
 
-Or try:
+Enrich a company record:
 
-> Plan an enrichment task for these three companies. Return their official website and headquarters location. Confirm the inputs, output fields, and processor with me before starting.
+> Use `createTaskGroup` with one input: Parallel Web Systems (<https://parallel.ai>). Return one row with its official company name, website, headquarters, founding year, and a one-sentence product description. Include source URLs and leave any fields you cannot verify blank.
 
 Research and enrichment run asynchronously:
 
