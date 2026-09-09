@@ -76,9 +76,9 @@ Research a company:
 
 > Use `createDeepResearch` to research Parallel Web Systems (<https://parallel.ai>). Write a company brief covering its products, target customers, and publicly announced funding. Cite your sources and flag anything you cannot verify.
 
-Enrich a company record:
+Enrich a list of companies:
 
-> Use `createTaskGroup` with one input: Parallel Web Systems (<https://parallel.ai>). Return one row with its official company name, website, headquarters, founding year, and a one-sentence product description. Include source URLs and leave any fields you cannot verify blank.
+> Use `createTaskGroup` with three inputs: Parallel Web Systems (<https://parallel.ai>), Google (<https://google.com>), and Apple (<https://apple.com>). Return one row per company with its official company name, website, headquarters, founding year, and a one-sentence product description. Include source URLs and leave any fields you cannot verify blank.
 
 Research and enrichment run asynchronously:
 
