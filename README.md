@@ -78,7 +78,7 @@ Research a company:
 
 Enrich a list of companies:
 
-> Use `createTaskGroup` with three inputs: Parallel Web Systems (<https://parallel.ai>), Google (<https://google.com>), and Apple (<https://apple.com>). Return one row per company with its official company name, website, headquarters, founding year, and a one-sentence product description. Include source URLs and leave any fields you cannot verify blank.
+> Use `createTaskGroup` to enrich these three companies: Parallel Web Systems (<https://parallel.ai>), Google (<https://google.com>), and Apple (<https://apple.com>). Return one row per company with its official company name, website, headquarters, founding year, and a one-sentence product description. Include source URLs and leave any fields you cannot verify blank.
 
 Research and enrichment run asynchronously:
 
