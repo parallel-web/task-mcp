@@ -100,7 +100,7 @@ If your client does not continue automatically, ask it to check the existing job
 
 Task inputs are sent to Parallel to run the requested research or enrichment. Hosted service usage is governed by the [Customer Terms](https://parallel.ai/customer-terms) and [Privacy Policy](https://parallel.ai/privacy-policy).
 
-For product support, contact [support@parallel.ai](mailto:support@parallel.ai). Report security concerns privately to the same address rather than opening a public issue. Do not include API keys or access tokens in reports.
+For product support, contact [support@parallel.ai](mailto:support@parallel.ai).
 
 ## Running the proxy locally
 
@@ -109,8 +109,6 @@ From a checkout of this repository, with Node.js and npm available:
 1. Run `npm install`.
 2. Run `npx wrangler dev` and leave it running.
 3. In another terminal, run `npx @modelcontextprotocol/inspector`.
-4. Open the Inspector URL printed in the terminal, then add a server with URL `http://localhost:8787/mcp` and transport **Streamable HTTP**.
-5. In that server's settings, add an `Authorization` custom header with value `Bearer <your Parallel API key>`, then connect. A connection without credentials returns HTTP 401. Keep your key out of source files and screenshots.
-6. List tools and confirm that `createDeepResearch`, `createTaskGroup`, `getStatus`, and `getResultMarkdown` are available. You do not need to run a creation tool to verify the connection.
+4. Connect the Inspector to `http://localhost:8787/mcp` using Streamable HTTP.
 
 The local proxy still calls the hosted service. Authentication and task charges still apply; this is not an offline task runner.
